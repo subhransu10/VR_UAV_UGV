@@ -1,7 +1,7 @@
 # Uniting UAV and UGV for Efficient Pollution Inspection
  <img src="https://user-images.githubusercontent.com/62358773/158238820-f418cc09-4227-4afc-9c31-1705dfb64f5a.png" width="5%" height="5%"> Professor Gianni Viardo Vercelli <img src="https://user-images.githubusercontent.com/62358773/158238810-c5dcb486-ba24-4b35-87de-39a54e88f36b.png" width="5%" height="5%"> Student: [Subhransu Sourav Priyadarshan](https://github.com/subhransu10)
  
- ## Introduction
+ ## Aim of the Project
 The goal of the project is to inspect a natural area for pollutants risk. In order to achieve this task, we need
 a UAV and a UGV. The UAV patrols the environment checking the pollutants level in the atmosphere when it
 exceeds a threshold value, it sends a notification for the action that needs to be taken in order to handle the
@@ -32,15 +32,15 @@ users to collaborate better with team members and work in parallel. Also, in thi
 feature.
 
 ### Pipeline Integration
-+ FBX Import: With the help of this feature, we imported the .fbx files into our project. The drone (in
++ __FBX Import__: With the help of this feature, we imported the .fbx files into our project. The drone (in
 particular) that we used for our project is a.fbx file which is implemented by the FBX support that the
 Unreal Engine provides to its users.
-+ Python Scripting: We were easily able to automate our workflows with full support for the industry-standard Python scripting in the Unreal Editor through Blueprints (be it the UAV flying or UGV movement.
++ __Python Scripting__: We were easily able to automate our workflows with full support for the industry-standard Python scripting in the Unreal Editor through Blueprints (be it the UAV flying or UGV movement.
 ### World Building
-+ The Unreal Editor: Unreal Engine includes the Unreal Editor, an integrated development environment
++ __The Unreal Editor__: Unreal Engine includes the Unreal Editor, an integrated development environment
 available on Linux, macOS, and Windows for content authoring and game-level development.
 
-+ Landscape and terrain tools: We created our environment with the help of these features on Unreal
++ __Landscape and terrain tools__: We created our environment with the help of these features on Unreal
 Engine. We could non-destructively edit our landscape with a layer reserved on splines and make changes
 in Blueprint.
 ### Blueprint visual scripting system
@@ -48,11 +48,11 @@ With artist-friendly Blueprint visual scripting, we could rapidly prototype and 
 without touching a line of code. We used Blueprints to build object behaviors and interactions(such as pollutants,
 fires, drone movements, etc), adjust input controls, and so much more.
 ### Content
-+ Marketplace ecosystem: The Unreal Engine Marketplace has thousands of high-quality assets and
++ __Marketplace ecosystem__: The Unreal Engine Marketplace has thousands of high-quality assets and
 plugins to accelerate production and bring new functionality to your work. We were able to access new
 environments, characters, animations, textures, props, sound and visual effects, music tracks, Blueprints,
 middleware integration plugins, add-on tools, and full starter kits.
-+ Quixel Megascans: Every Unreal Engine license comes with free access to the entire Quixel Megascans
++ __Quixel Megascans__: Every Unreal Engine license comes with free access to the entire Quixel Megascans
 library for use in Unreal Engine. Based on real-world scans, this premium-quality library features thousands
 of 3D and 2D PBR assets with optimized topology, UVs, and LODs, and consistent scale and resolution.
 With Quixel Bridge fully integrated into the Unreal Editor, we could simply drag and drop your selected
@@ -70,19 +70,19 @@ place and with the help of a number of plugins and other add-ons we were able to
 roads(for the movement of the UGV), it has chopped wood, and fires(we got these from the Unreal Marketplace).
 
 ### Components used
-+ Drone(UAV): The Drone .fbx that we used is a Phantom4 Pro. It has the ability to carry out the sensor
++ __Drone(UAV)__: The Drone .fbx that we used is a Phantom4 Pro. It has the ability to carry out the sensor
 with a payload.
-+ UGV : It is a Drivable M1126 Stryker ICV (West). It can move in any kind of difficult terrain. It has a
++ __UGV__ : It is a Drivable M1126 Stryker ICV (West). It can move in any kind of difficult terrain. It has a
 nozzle which can also be used to spray in the atmosphere. we use the static mesh component of the
-+ Smoke: The smoke (which is caused by fire caught on wood)
-+ Fire: This effect is due to the Niagara plugin on Unreal Engine. We got it from the marketplace and made
++ __Smoke__: The smoke (which is caused by fire caught on wood)
++ __Fire__: This effect is due to the Niagara plugin on Unreal Engine. We got it from the marketplace and made
 some changes according to the task.
-+ Cameras: There are three cameras used in our project. There is a camera-equipped on the drone and
++ __Cameras__: There are three cameras used in our project. There is a camera-equipped on the drone and
 also a camera each to show the point of view of the drone and the UGV.
 ### Blueprints Used
-+ Drone and its path: The Blueprint consists of three parts - path reference, flying mechanics, sensory
++ __Drone and its path__: The Blueprint consists of three parts - path reference, flying mechanics, sensory
 detection, and alert generation.
-+ UGV and its path: The blueprint consists of two parts - path reference and movement.
++ __UGV and its path__: The blueprint consists of two parts - path reference and movement.
 + Pollutants material (CO2)
 ## Scenario
 There is a fire caused by chopped wood which is releasing harmful substances into the atmosphere(CO2) and
