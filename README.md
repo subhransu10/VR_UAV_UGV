@@ -88,6 +88,10 @@ detection, and alert generation.
 There is a fire caused by chopped wood which is releasing harmful substances into the atmosphere(CO2) and
 there is smoke due to it and the drone while patrolling, notices that the area around it is not fit for breathing
 and it alerts to take some action that would control the situation.
+
+## Functionalities of the Blueprints
++ __Blue
+
 ## Future Improvements
 ## Results
 
