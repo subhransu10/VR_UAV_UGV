@@ -30,7 +30,7 @@ It is the world’s most open and advanced real-time 3D creation tool. We can co
 pipelines, with support for industry standards like FBX, USD, and Alembic. First-class USD support enables
 users to collaborate better with team members and work in parallel. Also, in this project, we make use of this
 feature.
-[](https://github.com/subhransu10/VR_UAV_UGV/blob/main/UE5%20logo.png)
+![alt text](https://github.com/subhransu10/VR_UAV_UGV/blob/main/UE5%20logo.png)
 ### Pipeline Integration
 + __FBX Import__: With the help of this feature, we imported the .fbx files into our project. The drone (in
 particular) that we used for our project is a.fbx file which is implemented by the FBX support that the
@@ -71,10 +71,10 @@ roads(for the movement of the UGV), it has chopped wood, and fires(we got these 
 
 ### Components used
 + __Drone(UAV)__: The Drone .fbx that we used is a Phantom4 Pro. It has the ability to carry out the sensor
-with a payload.[](https://github.com/subhransu10/VR_UAV_UGV/blob/main/DJI%20Phantom.png)
+with a payload.![alt text](https://github.com/subhransu10/VR_UAV_UGV/blob/main/DJI%20Phantom.png)
 + __UGV__ : It is a Drivable M1126 Stryker ICV (West). It can move in any kind of difficult terrain. It has a
 nozzle which can also be used to spray in the atmosphere. we use the static mesh component of the UGV.
-[](https://github.com/subhransu10/VR_UAV_UGV/blob/main/Screenshot%20(175).png)
+![alt text](https://github.com/subhransu10/VR_UAV_UGV/blob/main/Screenshot%20(175).png)
 + __Smoke__: The smoke (which is caused by fire caught on wood)
 + __Fire__: This effect is due to the Niagara plugin on Unreal Engine. We got it from the marketplace and made
 some changes according to the task.
@@ -123,11 +123,11 @@ The nodes include
 
 In Unreal Engine, you can use the _"Get Location at Distance Along Spline"_ function to obtain the world location at a specified distance along a spline. This function allows you to retrieve a point along a spline curve based on the distance from the spline's starting point. Here, we have defined certain checkpoints in the map so that it goes from one to the other. So, the functions return the same values as  the checkpoints and help the drone move from one to the other.
 Get rotation at distance along the spline – function is used, although it has the same functionality as above it is useful in the camera orientation of the drone.
-[](https://github.com/subhransu10/VR_UAV_UGV/blob/main/UAV_flying.png)
+![alt text](https://github.com/subhransu10/VR_UAV_UGV/blob/main/UAV_flying.png)
 ### Sensory Functionalities
 On component begin overlap 
 - (It is the sensor) of the drone whose target node is the smoke blueprint. If it doesn’t detect it, then it flies normally. When it flies into the smoke it generates an alarm (as the air quality is poor). Note: the smoke contains CO2 ( we already created a blueprint for it).
-[](https://github.com/subhransu10/VR_UAV_UGV/blob/main/UAV_sensing.png)
+![alt text](https://github.com/subhransu10/VR_UAV_UGV/blob/main/UAV_sensing.png)
 + __UGV Blueprints__
 The blueprint for the UGV only has two functionalities which are for path ref and movement as in UAV. Hence, for the same information, you can refer the previous section.
 
